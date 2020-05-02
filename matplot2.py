@@ -16,6 +16,7 @@ sal3=[5600,5700,5000,5300,5900]
 
 plt.bar(xaxis,sal1, color='k', label='2019', width=width)
 plt.bar(xaxis+width,sal2, color='y', label='2020', width=width)
+plt.bar(xaxis-width,sal3, label=2021, width=width)
 
 plt.xlabel('Month')
 plt.ylabel('salaries')
